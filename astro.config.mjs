@@ -5,5 +5,5 @@ import playformInline from "@playform/inline";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), playformInline()],
+	integrations: [tailwind(), playformInline()],
 });
