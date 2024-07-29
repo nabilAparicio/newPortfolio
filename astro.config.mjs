@@ -1,13 +1,9 @@
 import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 
-import react from "@astrojs/react";
+import playformInline from "@playform/inline";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    (await import("@playform/inline")).default(),
-    tailwind(),
-    react(),
-  ],
+  integrations: [tailwind(), playformInline()],
 });
