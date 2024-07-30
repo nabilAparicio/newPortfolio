@@ -61,7 +61,7 @@ import * as m from "../paraglide/messages.js";
           </div>
         </div>
         {
-          menus.map((menu) => {
+          menus[Astro.currentLocale  as 'en'| 'es'].map((menu) => {
             return (
               <a
                 href={menu.url}
@@ -82,7 +82,7 @@ import * as m from "../paraglide/messages.js";
         >
           <svg
             class="absolute w-6 h-6 transition duration-700 transform ease"
-            id="sun"
+            id="moon"
             fill="none"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -95,7 +95,7 @@ import * as m from "../paraglide/messages.js";
           >
           <svg
             class="absolute hidden w-6 h-6 transition duration-700 transform ease"
-            id="moon"
+            id="sun"
             fill="none"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -108,8 +108,8 @@ import * as m from "../paraglide/messages.js";
           >
         </div>
         <span class="hidden sm:inline-block">
-          <span id="dayText" class="ml-2">Day mode</span>
-          <span id="nightText" class="hidden ml-2">Night mode</span>
+          <span id="nightText" class="ml-2">{m.header_navbar_lightMode}</span>
+          <span id="dayText" class="hidden ml-2">{m.header_navbar_darkMode}</span>
         </span>
       </div>
       <div id="langSwitch" class=" ml-4 cursor-pointer text-neutral-800 group dark:text-white font-medium tracking-wide transition-transform hover:scale-105">

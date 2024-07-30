@@ -1,18 +1,38 @@
-[
-	{
-		"name": "Home",
-		"url": "/"
-	},
-	{
-		"name": "Posts",
-		"url": "/posts"
-	},
-	{
-		"name": "Projects",
-		"url": "/projects"
-	},
-	{
-		"name": "About",
-		"url": "/about"
-	}
-]
+{
+  "es": [
+    {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
+      "name": "Posts",
+      "url": "/posts"
+    },
+    {
+      "name": "Proyectos",
+      "url": "/projects"
+    },
+    {
+      "name": "Acerca de",
+      "url": "/about"
+    }
+  ],
+  "en": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Posts",
+      "url": "/posts"
+    },
+    {
+      "name": "Projects",
+      "url": "/projects"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 ---
 import projects from "../../collections/projects.json";
+import * as m from "../../paraglide/messages.js";
 import Button from "../button.astro";
 import Project from "../project.astro";
 ---
@@ -8,17 +9,16 @@ import Project from "../project.astro";
   <h2
     class="text-2xl font-bold leading-10 tracking-tight text-neutral-900 dark:text-neutral-100"
   >
-    My Projects
+    {m.index_projects_title()}
   </h2>
   <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-    Here are some of my recent projects. I'm always working on something new, so
-    check back often!
+    {m.index_projects_description()}
   </p>
   <div
     class="grid items-stretch w-full sm:grid-cols-2 md:grid-cols-3 gap-7 mt-7"
   >
     {
-      projects.map((project) => {
+      projects[Astro.currentLocale as 'en' | 'es'].map((project) => {
         return (
           <Project
             name={project.name}
@@ -33,6 +33,6 @@ import Project from "../project.astro";
   </div>
 
   <div class="flex items-center justify-center w-full py-5">
-    <Button text="View All My Projects" link="/projects" />
+    <Button text={m.index_projects_button()} link="/projects" />
   </div>
 </section>

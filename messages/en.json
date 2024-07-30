@@ -1,6 +1,26 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "hello_world": "Hello World",
+  "header_navbar_darkMode": "Dark Mode",
+  "header_navbar_lightMode": "Light Mode",
+  "header_navbar_lang": "🇲🇽 Spanish",
   "index_title": "I'am Nabil.",
-  "header_navbar_lang": "🇲🇽 Spanish"
+  "index_heroTitle_1": "I'm a software developer living in Panama.",
+  "index_heroTitle_2": "I focus on Web and mobile development.",
+  "index_HeroSubtitle_1": "I can help you out with:",
+  "index_heroOption_1": "React.js Development",
+  "index_heroOption_2": "React Native Development",
+  "index_heroOption_3": "Node.js Development",
+  "index_heroOption_4": "Website Design",
+  "index_heroOption_5": "and more...",
+  "index_heroButton": "Check out my Github",
+  "index_separator_1": "Check out my projects",
+  "index_projects_title": "My Projects",
+  "index_projects_description": "Here are some of my recent projects. I'm always working on something new, so check back often!",
+  "index_projects_button": "View all my projects",
+  "index_separator_2": "Some of my writing",
+  "index_blog_title": "My Writings",
+  "index_blog_description": " Along with coding I also like to write about life and technology. Here are some of my recent posts.",
+  "index_blog_button": "View all my posts",
+  "index_footer": "All rights reserved."
 }

@@ -1,6 +1,26 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "hello_world": "Hola Mundo",
+  "header_navbar_lang": "🇬🇧 Inglés",
+  "header_navbar_darkMode": "Modo Oscuro",
+  "header_navbar_lightMode": "Modo Claro",
   "index_title": "Soy Nabil.",
-  "header_navbar_lang": "🇬🇧 Inglés"
+  "index_heroTitle_1": "Desarrollador de software en Panamá.",
+  "index_heroTitle_2": "Me enfoco en desarrollo web y móvil.",
+  "index_HeroSubtitle_1": "Puedo ayudarte con:",
+  "index_heroOption_1": "React.js",
+  "index_heroOption_2": "React Native",
+  "index_heroOption_3": "Node.js",
+  "index_heroOption_4": "Diseño de sitios web",
+  "index_heroOption_5": "y más...",
+  "index_heroButton": "Sigueme en Github",
+  "index_separator_1": "Mira mis proyectos",
+  "index_projects_title": "Mis Proyectos",
+  "index_projects_description": "Aquí tienes algunos de mis proyectos. Siempre estoy trabajando en algo nuevo, ¡así que vuelve pronto!",
+  "index_projects_button": "Ver todos mis proyectos",
+  "index_separator_2": "Mi Blog",
+  "index_blog_title": "Mi Blog",
+  "index_blog_description": "Además de programar, también me gusta escribir sobre la vida y la tecnología. Aquí tienes algunos de mis posts mas recientes.",
+  "index_blog_button": "Ver todos mis posts",
+  "index_footer": "Todos los derechos reservados."
 }

@@ -21,23 +21,24 @@ import * as m from "../paraglide/messages.js";
           {m.index_title()}
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-          I'm a front-end programmer living in Panama. <br
+          {m.index_heroTitle_1()}<br
             class="hidden lg:block"
-          />I focus on Web and mobile development.
+          />{m.index_heroTitle_2()}
         </p>
         <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
-          I can help you out with:
+          {m.index_HeroSubtitle_1()}
         </p>
         <ul
           class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
         >
-          <li>React.js Development</li>
-          <li>Node.js Development</li>
-          <li>Website Design</li>
-          <li>and more...</li>
+          <li>{m.index_heroOption_1()}</li>
+          <li>{m.index_heroOption_2()}</li>
+          <li>{m.index_heroOption_3()}</li>
+          <li>{m.index_heroOption_4()}</li>
+          <li>{m.index_heroOption_5()}</li>
         </ul>
         <Button
-          text="Follow me on Github"
+          text={m.index_heroButton()}
           link="https://github.com/nabilAparicio"
         />
       </div>
@@ -76,8 +77,8 @@ import * as m from "../paraglide/messages.js";
       </div>
     </div>
   </div>
-  <Separator text="Check out my projects" />
+  <Separator text={m.index_separator_1()} />
   <Projects />
-  <Separator text="Some of my writing" />
+  <Separator text={m.index_separator_2()} />
   <Writings />
 </Layout>

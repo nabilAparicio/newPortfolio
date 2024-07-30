@@ -1,23 +1,48 @@
-[
-	{
-		"name": "Tip Calculator",
-		"description": "Responsive tip calculator",
-		"image": "/assets/images/projects/tip_calculator.webp",
-		"url": "https://tip-calculator-4dz.pages.dev/",
-		"alt": "tip calculator"
-	},
-	{
-		"name": "Rick and Morty",
-		"description": "Rick and Morty API consumption",
-		"image": "/assets/images/projects/rick_and_morty.webp",
-		"url": "https://main--singular-gnome-fb4bcc.netlify.app/",
-		"alt": "rick and morty"
-	},
-	{
-		"name": "Pokedex",
-		"description": "Pokedex API consumption and redux state management",
-		"image": "/assets/images/projects/pokedex.webp",
-		"url": "https://pokedexorlando.netlify.app/",
-		"alt": "pokedex api project"
-	}
-]
+{
+  "es": [
+    {
+      "name": "Calculadora de propinas",
+      "description": "Calculadora de propinas responsive",
+      "image": "/assets/images/projects/tip_calculator.webp",
+      "url": "https://tip-calculator-4dz.pages.dev/",
+      "alt": "calculadora de propinas"
+    },
+    {
+      "name": "Rick and Morty",
+      "description": "Consumo de la API de Rick and Morty",
+      "image": "/assets/images/projects/rick_and_morty.webp",
+      "url": "https://main--singular-gnome-fb4bcc.netlify.app/",
+      "alt": "rick and morty"
+    },
+    {
+      "name": "Pokedex",
+      "description": "Consumo de la API de Pokedex y gestión de estado con redux",
+      "image": "/assets/images/projects/pokedex.webp",
+      "url": "https://pokedexorlando.netlify.app/",
+      "alt": "proyecto de la api de pokedex"
+    }
+  ],
+  "en": [
+    {
+      "name": "Tip Calculator",
+      "description": "Responsive tip calculator",
+      "image": "/assets/images/projects/tip_calculator.webp",
+      "url": "https://tip-calculator-4dz.pages.dev/",
+      "alt": "tip calculator"
+    },
+    {
+      "name": "Rick and Morty",
+      "description": "Rick and Morty API consumption",
+      "image": "/assets/images/projects/rick_and_morty.webp",
+      "url": "https://main--singular-gnome-fb4bcc.netlify.app/",
+      "alt": "rick and morty"
+    },
+    {
+      "name": "Pokedex",
+      "description": "Pokedex API consumption and redux state management",
+      "image": "/assets/images/projects/pokedex.webp",
+      "url": "https://pokedexorlando.netlify.app/",
+      "alt": "pokedex api project"
+    }
+  ]
+}
