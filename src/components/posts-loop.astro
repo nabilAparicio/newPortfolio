@@ -1,14 +1,23 @@
 ---
 import { getCollection } from "astro:content";
+
+interface Post {
+  title: string;
+  description: string;
+  dateFormatted: string;
+  link: string;
+  [key: string]: any;
+}
+
 const allPosts = await getCollection("post");
 
 const { count } = Astro.props;
 
-const postsLoop = allPosts.slice(0, count).map((post) => {
-	return {
-		...(post.data || {}),
-		link: `/post/${post.slug}`,
-	};
+const postsLoop: Post[] = allPosts.slice(0, count).map((post) => {
+  return {
+    ...(post.data || {}),
+    link: `/post/${post.slug}`,
+  };
 });
 ---
 
