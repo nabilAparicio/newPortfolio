@@ -1,6 +1,7 @@
 ---
 import menus from "../collections/menu.json";
 import Logo from "../components/logo.astro";
+import * as m from "../paraglide/messages.js";
 ---
 
 <!-- This is an invisible div with relative position so that it takes up the height of the menu (because menu is absolute/fixed) -->
@@ -110,6 +111,9 @@ import Logo from "../components/logo.astro";
           <span id="dayText" class="ml-2">Day mode</span>
           <span id="nightText" class="hidden ml-2">Night mode</span>
         </span>
+      </div>
+      <div id="langSwitch" class=" ml-4 cursor-pointer text-neutral-800 group dark:text-white font-medium tracking-wide transition-transform hover:scale-105">
+        {m.header_navbar_lang()}
       </div>
     </nav>
   </div>

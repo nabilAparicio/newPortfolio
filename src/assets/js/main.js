@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
   applyMenuItemClasses();
   evaluateHeaderPosition();
   mobileMenuFunctionality();
+  ToggleLang();
 });
 
 // window.toggleDarkMode = function(){
@@ -131,6 +132,25 @@ function showNight(animate) {
       document.getElementById("moon").classList.add("rising");
     }
   }, timeout);
+}
+function getLanguage() {
+  return document.getElementsByTagName("html")[0].getAttribute("lang");
+}
+
+function ToggleLang() {
+  document.getElementById("langSwitch").addEventListener("click", () => {
+    const pathname = window.location.pathname;
+    const hasLang = pathname.includes("/en") || pathname.includes("/es");
+    const getLanguage = pathname.includes("/es") ? "/en" : "/es";
+
+    if (!hasLang) {
+      window.location.pathname = getLanguage + pathname;
+    } else if (pathname.includes("/en")) {
+      window.location.pathname = pathname.replace("/en", "/es");
+    } else if (pathname.includes("/es")) {
+      window.location.pathname = pathname.replace("/es", "/en");
+    }
+  });
 }
 
 window.applyMenuItemClasses = () => {

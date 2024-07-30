@@ -1,4 +1,6 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
-  "hello_world": "Hola Mundo"
+  "hello_world": "Hola Mundo",
+  "index_title": "Soy Nabil.",
+  "header_navbar_lang": "🇬🇧 Inglés"
 }
