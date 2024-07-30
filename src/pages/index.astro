@@ -5,6 +5,8 @@ import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
 import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
+import * as m from "../paraglide/messages.js"
+
 ---
 
 <Layout title="Nabil Aparicio">
@@ -16,6 +18,7 @@ import Layout from "../layouts/main.astro";
       <h1
       class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
       >
+      {m.hello_world()}
       Hello, I'm Nabil.
     </h1>
     <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
