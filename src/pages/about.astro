@@ -1,24 +1,27 @@
 ---
 import experiences from "../collections/experiences.json";
+import * as m from "../paraglide/messages.js";
 import AboutExperience from "../components/about-experience.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
 ---
 
-<Layout title="About Me">
+<Layout title={m.about_page_Title()}>
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
-      title="About Me"
-      description="Hello 👋 I'm a frontend engineer from Nanjing, China. I'm passionate about building new products and learning new technology."
+      title={m.About_title()}
+      description={m.about_description()}
     />
 
     <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
 
-    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
+    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">{m.about_page_bio_title()}</h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Front-end cutter 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, operations digging holes person 🤦🏻‍♂️.
+    {
+      m.about_page_bio()
+    }
     </p>
 
     <h2
