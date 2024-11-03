@@ -2,37 +2,37 @@
   "es": [
     {
       "name": "Inicio",
-      "url": "/"
+      "url": "/es/"
     },
     {
       "name": "Posts",
-      "url": "/posts"
+      "url": "/es/posts"
     },
     {
       "name": "Proyectos",
-      "url": "/projects"
+      "url": "/es/projects"
     },
     {
       "name": "Acerca de",
-      "url": "/about"
+      "url": "/es/about"
     }
   ],
   "en": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "/en/"
     },
     {
       "name": "Posts",
-      "url": "/posts"
+      "url": "/en/posts"
     },
     {
       "name": "Projects",
-      "url": "/projects"
+      "url": "/en/projects"
     },
     {
       "name": "About",
-      "url": "/about"
+      "url": "/en/about"
     }
   ]
 }

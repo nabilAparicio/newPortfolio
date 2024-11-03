@@ -12,6 +12,11 @@ export default defineConfig({
       project: "./project.inlang",
       outdir: "./src/paraglide",
     }),
+    favicons({
+      masterPicture: "/assets/favicon.ico",
+      emitAssets: true,
+      faviconsDarkMode: true,
+    }),
   ],
   i18n: {
     defaultLocale: "en",

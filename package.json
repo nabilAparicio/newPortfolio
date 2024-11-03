@@ -26,6 +26,7 @@
 		"@astrojs/react": "^3.6.0",
 		"@inlang/paraglide-astro": "^0.2.2",
 		"@playform/inline": "^0.1.0",
+		"astro-favicons": "^2.1.8",
 		"typescript": "^5.5.4"
 	}
 }
