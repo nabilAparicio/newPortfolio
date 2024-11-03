@@ -2,6 +2,7 @@ import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 import paraglide from "@inlang/paraglide-astro";
 import playformInline from "@playform/inline";
+import favicons from "astro-favicons";
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,7 +14,7 @@ export default defineConfig({
       outdir: "./src/paraglide",
     }),
     favicons({
-      masterPicture: "/assets/favicon.ico",
+      masterPicture: "../assets/favicon.svg",
       emitAssets: true,
       faviconsDarkMode: true,
     }),
