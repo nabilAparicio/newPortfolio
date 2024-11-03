@@ -32,5 +32,13 @@
   "About_title": "About me",
   "about_description": "Hi, I’m Nabil, a software developer based in Panama, the navel of the world and the heart of the universe 🌎❤️. With a strong focus on front-end development",
   "about_page_bio_title": "Short Bio",
-  "about_page_bio": "I have a passion for creating user-friendly, visually appealing interfaces that enhance the digital experience 💻✨. One of my proudest personal achievements was conquering a food challenge at a local eatery 🍔🏆—proving that I have the determination to tackle any obstacle, no matter how daunting. I’m always excited to connect with like-minded individuals 🤝. Feel free to reach out if you’d like to discuss tech, share nerdy interests, or just have a friendly chat 😊."
+  "about_page_bio": "I have a passion for creating user-friendly, visually appealing interfaces that enhance the digital experience 💻✨. One of my proudest personal achievements was conquering a food challenge at a local eatery 🍔🏆—proving that I have the determination to tackle any obstacle, no matter how daunting. I’m always excited to connect with like-minded individuals 🤝. Feel free to reach out if you’d like to discuss tech, share nerdy interests, or just have a friendly chat 😊.",
+
+  "about_page_experience_title": "Experience",
+  "about_page_conect": "Let's Connect",
+  "about_page_conect_description": "If you want to stay up to date with my work be sure to",
+  "about_page_conect_link": "follow me on X",
+  "about_page_conect_link_2": ", or you can send me an",
+  "about_page_conect_link_3": "email",
+  "about_page_conect_link_4": "and I'll be sure to get back to you."
 }

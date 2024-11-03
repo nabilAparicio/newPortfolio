@@ -1,23 +1,62 @@
-[
-	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
-	},
-	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
-	},
-	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
-	}
-]
+{
+  "en": [
+    {
+      "dates": "January 2023 · Present",
+      "role": "Front-end Developer",
+      "company": "RednBlue",
+      "description": "Responsible for front-end development of the customer service system and CRM.",
+      "logo": "/assets/images/experiences/RNB-icon.png"
+    },
+    {
+      "dates": "May 2022 · January 2023",
+      "role": "Freelance Developer",
+      "company": "Freelance",
+      "description": "Development of web modules for different clients.",
+      "logo": "/assets/images/experiences/freelance.png"
+    },
+    {
+      "dates": "January 2022 · May 2022",
+      "role": "Full-stack Bootcamp",
+      "company": "Academlo",
+      "description": "Full-stack web development bootcamp, learning technologies like JavaScript, React, Node.js, Express, MongoDB, SQL, etc.",
+      "logo": "/assets/images/experiences/academlo.png"
+    },
+    {
+      "dates": "January 2021 · January 2022",
+      "role": "Self-taught Student",
+      "company": "",
+      "description": "Studying programming and web development on my own, taking courses on different platforms like Platzi, Udemy, Coursera, etc.",
+      "logo": "/assets/images/experiences/open-book.png"
+    }
+  ],
+  "es": [
+    {
+      "dates": "Enero 2023 · Presente",
+      "role": "Desarrollador Front-end",
+      "company": "RednBlue",
+      "description": "Responsable del desarrollo front-end del sistema de atención al cliente y CRM.",
+      "logo": "/assets/images/experiences/RNB-icon.png"
+    },
+    {
+      "dates": "Mayo 2022 · Enero 2023",
+      "role": "Freelance Developer",
+      "company": "Freelance",
+      "description": "Desarrollo de modulos web para diferentes clientes.",
+      "logo": "/assets/images/experiences/freelance.png"
+    },
+    {
+      "dates": "Enero 2022 · Mayo 2022",
+      "role": "Full-stack Bootcamp",
+      "company": "Academlo",
+      "description": "Bootcamp de desarrollo web full-stack, aprendiendo tecnologías como JavaScript, React, Node.js, Express, MongoDB, SQL etc.",
+      "logo": "/assets/images/experiences/academlo.png"
+    },
+    {
+      "dates": "Enero 2021 · Enero 2022",
+      "role": "Estudiante Autodidacta",
+      "company": "",
+      "description": "Estudiando programación y desarrollo web por mi cuenta. tomando cursos en diferentes plataformas como Platzi, Udemy, Coursera, etc.",
+      "logo": "/assets/images/experiences/open-book.png"
+    }
+  ]
+}

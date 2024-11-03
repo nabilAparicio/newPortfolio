@@ -4,72 +4,70 @@ import * as m from "../paraglide/messages.js";
 import AboutExperience from "../components/about-experience.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
+
+const currentLang: keyof typeof experiences =
+  (Astro.currentLocale as "en" | "es") || "en";
 ---
 
 <Layout title={m.about_page_Title()}>
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
-    <PageHeading
-      title={m.About_title()}
-      description={m.about_description()}
+    <PageHeading title={m.About_title()} description={m.about_description()} />
+
+    <img
+      src="/assets/images/about.jpg"
+      class="relative z-30 w-full my-10 rounded-xl"
     />
 
-    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
-
-    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">{m.about_page_bio_title()}</h2>
+    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">
+      {m.about_page_bio_title()}
+    </h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-    {
-      m.about_page_bio()
-    }
+      {m.about_page_bio()}
     </p>
 
     <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
-      Experience
+      {m.about_page_experience_title()}
     </h2>
     <div class="px-5 py-10">
       {
-        experiences.map((experience, loop) => {
+        experiences[currentLang].map((experience) => {
           return (
             <>
-              {loop == 0 || loop == 1 ? (
-                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
-                  <AboutExperience
-                    dates={experience.dates}
-                    role={experience.role}
-                    company={experience.company}
-                    description={experience.description}
-                    logo={experience.logo}
-                  />
-                </div>
-              ) : (
-                <AboutExperience
-                  dates={experience.dates}
-                  role={experience.role}
-                  company={experience.company}
-                  description={experience.description}
-                  logo={experience.logo}
-                />
-              )}
+              <AboutExperience
+                dates={experience.dates}
+                role={experience.role}
+                company={experience.company}
+                description={experience.description}
+                logo={experience.logo}
+              />
             </>
-          )
+          );
         })
       }
     </div>
 
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      {m.about_page_conect()}
+    </h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      If you want to stay up to date with my work be sure to <a
-        href="https://twitter.com/ccikai"
+      {m.about_page_conect_description()}
+      <a
+        href="https://x.com/NabilOrlando"
         target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
-        >email</a
-      > and I'll be sure to get back to you.
+        class="text-indigo-600 underline">{m.about_page_conect_link()}</a
+      >{m.about_page_conect_link_2()}
+      <a href="mailto:orlando.nabil@gmail.com" class="text-indigo-600 underline"
+        >{m.about_page_conect_link_3()}</a
+      >
+      {m.about_page_conect_link_4()}
     </p>
   </section>
 </Layout>
