@@ -20,6 +20,13 @@
       "image": "/assets/images/projects/pokedex.webp",
       "url": "https://pokedexorlando.netlify.app/",
       "alt": "proyecto de la api de pokedex"
+    },
+    {
+      "name": "Lecturas para devocionales",
+      "description": "Aplicación para llevar el control de las lecturas en los periodos devocionales",
+      "image": "/assets/images/projects/Readings-App.webp",
+      "url": "https://youtu.be/xpQOKxXOVz0",
+      "alt": "aplicación de lecturas para devocionales"
     }
   ],
   "en": [
@@ -43,6 +50,13 @@
       "image": "/assets/images/projects/pokedex.webp",
       "url": "https://pokedexorlando.netlify.app/",
       "alt": "pokedex api project"
+    },
+    {
+      "name": "Devotional readings",
+      "description": "Application to keep track of readings in devotional periods",
+      "image": "/assets/images/projects/Readings-App.webp",
+      "url": "https://youtu.be/xpQOKxXOVz0",
+      "alt": "devotional readings app"
     }
   ]
 }
